@@ -1,3 +1,15 @@
+# Daftar Pustaka
+reactjs tutorial prawito hudoro
+reactjs firebase prawito huduro
+React Course - Todo List Project https://www.youtube.com/watch?v=8QBYrKhqgFI&list=LL&index=21&t=646s&ab_channel=CodingAddict
+https://reactjs.org/
+https://reactrouter.com/web/guides/quick-start
+https://github.com/reduxjs/redux-thunk
+https://material-ui.com/
+https://firebase.google.com/?gclid=Cj0KCQjwgtWDBhDZARIsADEKwgOvSrI9caljeGvGkUWb1REPEZyNtQ3bw3dK5UwJPXs9UmIEPBlhYXcaAvAeEALw_wcB&gclsrc=aw.ds
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
