@@ -3,7 +3,6 @@ import './Login.scss';
 import { connect } from 'react-redux';
 import { loginUserAPI } from '../../../config/redux/action';
 import Button from '../../../components/atoms/Button';
-import TransitionsModal from '../../../components/atoms/Modal/modal';
 
 
 // import { withRouter } from 'react-router-dom';
@@ -68,8 +67,6 @@ class Login extends Component {
                 <hr/>
               </form>
                 <Button onClick={this.handeleLoginSubmit} title={'Login'} loading={this.props.isLoading}/>
-                TransitionsModal
-                <TransitionsModal/>
 
                 <p className="p-text">You don't have an account? <a href="#" onClick={this.goSignUp}>sign up now</a></p>
                 {/* <button onClick={this.goSignUp}>Sign up</button> */}
