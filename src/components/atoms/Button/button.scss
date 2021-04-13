@@ -1,0 +1,39 @@
+// .btn{
+//     padding:10px 20px;
+// 	display:inline-block;
+// 	border-radius:3px;
+// 	background: none;
+// 	font-size:16px;
+// 	color:#333;
+//     transition: .3s ease-in-out;
+//     cursor: pointer;
+//     width: 100px;
+//     &:hover{
+//         background-color:rgb(23, 23, 158);
+//         color: wheat;
+//     }
+// }
+
+.btn-grad {background-image: linear-gradient(to right, #141E30 0%, #243B55  51%, #141E30  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 10px 35px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+   outline: none;
+   border: none;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+

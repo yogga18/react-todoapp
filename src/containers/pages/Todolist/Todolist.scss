@@ -1,0 +1,85 @@
+// Mixin
+@mixin response-xs {
+    @media (max-width: 576px) { @content };
+}
+@mixin response-small {
+    @media (min-width: 576px) { @content };
+}
+@mixin response-medium {
+    @media (min-width: 768px) { @content };
+}
+@mixin response-large {
+    @media (min-width: 992px) { @content };
+}
+@mixin response-xl {
+    @media (min-width: 1200px) { @content };
+}
+
+@mixin response-center {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+// Mixin End
+
+// Style Todolist
+.nav-btn {
+    display: flex;
+    width: 90%;
+    margin: 5vh 20px;
+    justify-content: space-between;
+}
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    // border: solid 2px black;
+    .form-input {
+        margin: 10vh;
+        width: 80%;
+        // border: solid 2px red;
+        input{
+            margin: 3px auto;
+            width: 70%;
+            height: 30px;
+            border: none;
+            border-radius: 8px;
+            background-color: rgb(235, 233, 233);
+            color: #111;
+            @include response-center();
+            top: 18%;
+        }
+        .btn-submit {
+            @include response-center();
+            top: 30%;
+        }
+    }
+}
+// Style Todolist End
+
+// Style TodoCard
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    li {
+        width: 80%;
+        height: 25%;
+        border-radius: 9px;
+        border: solid 2px #111;
+        padding: 13px 18px;
+
+        .line-card{
+            margin-bottom: 13px;
+        }
+        .btn-wrapper{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+}
+// Style TodoCard End
