@@ -5,6 +5,7 @@
 # Demo App
 https://todoapp-b8d12.web.app/
 
+# Made with 💕 by Yoga Aditya Candra and hosted on Firebase
 
 # Daftar Pustaka
 reactjs tutorial prawito hudoro
